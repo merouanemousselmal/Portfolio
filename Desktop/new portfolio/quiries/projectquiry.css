@@ -1,0 +1,265 @@
+
+
+/* Projects quiries */
+
+@media(max-width: 79rem){
+    html{
+        font-size: 55%;
+    }
+    
+    .project-container{
+        margin-top: 15rem;
+    }
+}
+    
+@media(max-width: 74rem){   
+    html{
+        font-size: 45%;
+    }
+    
+    .project-container{
+        margin-top: 21rem;
+    }
+}
+    
+@media(max-width: 62rem){
+    html{
+        font-size: 40%;
+    }
+}
+    
+@media(max-width: 56rem){
+    .project-container{
+            height: 150rem;
+            max-width: 100%;
+            margin: 0;
+    }
+        
+
+    .projects-title-container{
+        margin-top: 6.8rem;
+        margin-bottom: 4.6rem;
+    }
+    
+    h1{
+        font-size: 6.4rem;  
+    }
+
+    .projects-container{
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        justify-items: center;
+        column-gap: 4.8rem;
+        row-gap: 3.6rem;
+        padding:0 6.4rem; 
+    }
+        
+    .project{
+        height: 90%;
+        width: 90%;
+    }
+
+    header{
+            height: 10rem;
+            padding: 4rem;        
+    }
+    
+    .my-name{
+        font-size: 3rem;
+        letter-spacing: 0.2rem;
+        color: #666;
+        font-weight: 500;
+    }
+    
+    .btn-mobile-nav{
+        display: block;
+    }
+    
+    .main-nav{
+        background-color: rgba(255, 255, 255, 0.912);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transition: all 0.5s ease-in;
+        transform: translateX(100%);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        /*Hide it visually*/
+        opacity: 0;
+    
+        /*Make it unaccessible to mouse and keyboard*/
+        pointer-events: none;
+    
+        /*Hide it from screen readers*/
+        visibility: hidden;
+    }
+    
+    .nav-open .main-nav{
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translate(0);
+    }
+    
+    .main-nav-list{
+        flex-direction: column;
+        gap: 6rem;
+    }
+    
+    .main-nav-link:link,
+    .main-nav-link:visited{  
+        font-size: 5rem;
+        color: #333;
+        font-weight: 700;  
+    }
+    
+    .nav-open .icon-mobile-nav[name="close-outline"]{
+        display: block;
+    }
+    
+    .nav-open .icon-mobile-nav[name="menu-outline"]{
+        display: none;
+    }
+        
+    .down-icon{  
+        margin-left: 22%;
+        bottom: 3rem;
+    }
+
+    .icon{
+        height: 4rem;
+        width: 4rem;
+    }
+}
+
+@media(max-width: 50rem){
+    .project-container{
+        height: 135rem;       
+}
+}
+
+@media(max-width: 44rem){
+    .project-container{
+        height: 125rem; 
+}
+
+.down-icon{  
+    margin-left: 21.5%;
+}
+
+}
+
+@media(max-width: 37.5rem){
+    .project-container{
+        height: 110rem;
+        
+}
+
+.down-icon{  
+    margin-left: 21%;
+}
+}
+
+@media(max-width: 32rem){
+    .project-container{
+        height: 100rem;
+         
+}
+
+.down-icon{  
+    margin-left: 20.5%;
+}
+}
+
+@media(max-width: 30rem){
+    .projects-container{
+        grid-template-columns: 1fr;
+}
+
+.project-container{
+    height: 275rem;
+}
+
+.down-icon{  
+    margin-left: -2%;
+}
+}
+
+@media(max-width: 25rem){
+    
+
+.project-container{
+    height: 230rem;
+}
+
+.down-icon{  
+    margin-left: -3%;
+}
+}
+
+@media(max-width: 22rem){
+  
+    header{
+         padding: 2.4rem;
+    }
+  
+    .my-name{
+        font-size: 2.4rem; 
+    }
+
+    .down-icon{  
+        margin-left: -5%;
+    }
+
+    .project-container{
+        height: 200rem;
+    }
+    h1{
+        font-size: 4.8rem;  
+    }
+}
+
+@media(max-width: 19rem){
+    .my-name{
+        font-size: 2.2rem; 
+    }
+
+    .down-icon{  
+        margin-left: -5%;
+    }
+
+    .project-container{
+        height: 175rem;
+    }
+    h1{
+        font-size: 4.4rem;  
+    }
+}
+
+@media(max-width: 16rem){
+    .my-name{
+        font-size: 2rem; 
+    }
+
+    .project-container{
+        height: 145rem;
+    }
+    h1{
+        font-size: 3.6rem;  
+    }
+}
+
+
+
+
+
+
+
+
+
+

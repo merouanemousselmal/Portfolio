@@ -1,0 +1,378 @@
+@media(max-width: 84rem){
+    html{
+        font-size: 58%;
+    }
+
+    .container{
+        margin-top: 11rem;
+    }
+}
+
+@media(max-width: 77rem){
+    .container{
+        max-width: 100%;
+        min-height: 100vh;
+        margin-top: 0;
+        bottom: 0;
+        margin: 0;  
+    }
+
+    header{
+        height: 5rem;    
+    }
+
+    .main-nav-link:link,
+    .main-nav-link:visited{
+     
+        font-size: 2rem;   
+}
+
+
+     .my-name{
+        font-size: 2rem;  
+}
+
+    .contact-container{
+        
+        padding: 0 6.4rem;
+        min-height: 90vh;
+        align-items: center;
+    }
+
+    .input{
+        margin-bottom: 6.4rem;
+    }
+
+    .textarea{
+         
+        margin-bottom: 6.4rem;
+    }
+
+    .btn:link,
+    .btn:visited{
+        margin-bottom: 11rem;
+}
+    
+    .lets{
+        position: relative;
+        margin-top: 0rem;
+        margin-bottom: 1.2rem;
+        margin-top: -10rem;
+}
+}
+
+@media(max-width: 65rem){
+
+    html{
+        font-size: 60%;
+    }
+
+    .lets{
+        display: none;
+    }
+
+    .contact-container{    
+        grid-template-columns:  1fr;  
+        justify-items: center;
+    }
+
+}
+
+@media(max-width: 53rem){
+
+    .btn-mobile-nav{
+        display: block;
+    }
+    
+    .main-nav{
+        background-color: rgba(255, 255, 255, 0.844);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        transition: all 0.5s ease-in;
+        transform: translateX(100%);
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        /*Hide it visually*/
+        opacity: 0;
+    
+        /*Make it unaccessible to mouse and keyboard*/
+        pointer-events: none;
+    
+        /*Hide it from screen readers*/
+        visibility: hidden;
+    }
+    
+    .nav-open .main-nav{
+        opacity: 1;
+        pointer-events: auto;
+        visibility: visible;
+        transform: translate(0);
+    }
+    
+    .main-nav-list{
+        flex-direction: column;
+        gap: 4.8rem;
+    }
+    
+    .main-nav-link:link,
+    .main-nav-link:visited{  
+        font-size: 3.5rem;
+        color: #333;
+        font-weight: 700;  
+    }
+    
+    .nav-open .icon-mobile-nav[name="close-outline"]{
+        display: block;
+    }
+    
+    .nav-open .icon-mobile-nav[name="menu-outline"]{
+        display: none;
+    }
+    
+}
+
+@media(max-width: 39rem){
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width: 36rem){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media(max-width: 32rem){
+    html{
+        font-size: 45%;
+    }
+    
+    header{
+        height: 5rem;
+    }
+
+    .my-name{
+        font-size: 2.4rem;
+    }
+
+    .contactinfo h2{
+        font-size: 3rem;
+    }
+
+    .btn{
+        padding: 1.4rem 2.4rem;
+        font-size: 1.8rem; 
+}
+
+    .icon{
+        font-size: 2.6rem;    
+    }
+    
+    h6{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 28rem){
+    html{
+        font-size: 40%;
+    }
+
+    header{
+        height: 6rem;
+    }
+}
+
+@media(max-width: 25rem){
+    html{
+        font-size: 35%;
+    }
+    
+    header{
+        height: 7rem;
+    }
+
+    .my-name{
+        font-size: 2.6rem;
+    }
+
+    .contactinfo h2{
+        font-size: 3.5rem;
+    }
+
+    .btn{
+        font-size: 2rem; 
+}
+
+    .icon{
+        font-size: 2.8rem;    
+    }
+    
+    h6{
+        font-size: 2.4rem;
+    }
+}
+
+@media(max-width: 23rem){
+    html{
+        font-size: 33%;
+    }
+    
+    header{
+        height: 10rem;
+    }
+
+    .my-name{
+        font-size: 3rem;
+    }
+
+    .contactinfo h2{
+        font-size: 4rem;
+    }
+
+    .btn{
+        padding: 1.8rem 2.4rem;
+        font-size: 2.4rem; 
+}
+
+    .icon{
+        font-size: 3rem;    
+    }
+    
+    h6{
+        font-size: 2.4rem;
+    }
+
+    
+    .form{
+        margin-top: -20rem;
+    }
+}
+
+@media(max-width: 22rem){
+    html{
+        font-size: 30%;
+    }
+    
+    header{
+        height: 10rem;
+    }
+
+    .my-name{
+        font-size: 2.8rem;
+    }
+
+    .contactinfo h2{
+        font-size: 3.4rem;
+    }
+
+    .btn{
+        padding: 1.8rem 2.4rem;
+        font-size: 2.5rem; 
+        margin-bottom: 10rem;
+}
+
+    h6{
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+
+    .form{
+        margin-top: -20rem;
+    }
+}
+
+@media(max-width: 20rem){
+    html{
+        font-size: 25%;
+    }
+    
+    header{
+        height: 11rem;
+    }
+
+    .my-name{
+        font-size: 3rem;
+    }
+
+    .input{
+        width: 60rem;
+    }
+
+    .textarea{
+        width: 60rem;
+         
+    }
+
+    .contactinfo h2{
+        font-size: 4rem;
+    }
+
+    .btn{
+        padding: 2rem 2.4rem;
+        font-size: 2.5rem; 
+        width: 60rem;
+}
+
+    .icon{
+        font-size: 3rem;    
+    }
+    
+    h6{
+        font-size: 2.4rem;
+        font-weight: 600;
+    }
+}
+
+@media(max-width: 18rem){
+    html{
+        font-size: 23%;
+    }
+    
+    header{
+        height: 11rem;
+    }
+
+    .my-name{
+        font-size: 3.4rem;
+    }
+
+    .contactinfo{
+        margin-bottom: 2.4rem;
+    }
+    
+
+    .contactinfo h2{
+        font-size: 4rem;
+    }
+
+    .btn    {
+        padding: 2.4rem 2.4rem;
+        font-size: 3rem; 
+
+}
+ 
+    h6{
+        font-size: 2.8rem; 
+    }
+}
+
+@media(max-width: 18rem){
+    
+    .contactinfo{
+        margin-bottom: 5rem;
+    }
+
+    .icon{
+        font-size: 3.8rem;    
+    }
+    
+}
+

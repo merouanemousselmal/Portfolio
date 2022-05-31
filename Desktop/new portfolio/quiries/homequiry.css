@@ -1,0 +1,326 @@
+
+
+@media(max-width:91rem){
+.heading-primary{
+    font-size: 4.5rem;
+}
+}
+
+@media(max-width: 86rem){
+    html{
+        font-size: 60%;
+    }
+}
+
+@media (max-width: 83rem){
+    html{
+        font-size: 57%;
+    }
+}
+
+@media (max-width: 79rem){
+
+.container{
+    min-height: 52rem;
+    max-width: 100rem;
+    height: 50rem;
+    margin-top: 12rem;
+}
+
+.heading-primary{
+    font-size: 3.6rem;
+}
+
+.section-home{
+    max-width: 100rem;
+    height: 87.7%;
+}
+
+.btn{
+    margin-bottom: 20rem;    
+}
+}
+
+@media (max-width: 62.5rem){
+    html{
+        font-size: 55%;
+    }
+
+.container{
+    margin-top: 18rem;
+}
+}
+
+@media(max-width: 60rem){
+    html{
+        font-size: 50%;
+    }
+
+.container{
+    margin-top: 19rem;
+}
+}
+
+@media(max-width:56rem){
+
+
+.container{
+    height: 100vh;
+    max-width: 100%;
+    margin: 0;
+}
+
+.section-home{
+    grid-template-columns: 1fr;
+}
+
+header{
+     
+    height: 4.8rem;
+    padding: 4rem;
+     
+}
+
+
+
+.btn-mobile-nav{
+    display: block;
+}
+
+.main-nav{
+    background-color: rgba(255, 255, 255, 0.844);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    transition: all 0.5s ease-in;
+    transform: translateX(100%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /*Hide it visually*/
+    opacity: 0;
+
+    /*Make it unaccessible to mouse and keyboard*/
+    pointer-events: none;
+
+    /*Hide it from screen readers*/
+    visibility: hidden;
+}
+
+.nav-open .main-nav{
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translate(0);
+}
+
+.main-nav-list{
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited{  
+    font-size: 3.5rem;
+    color: #333;
+    font-weight: 700;  
+}
+
+.nav-open .icon-mobile-nav[name="close-outline"]{
+    display: block;
+}
+
+.nav-open .icon-mobile-nav[name="menu-outline"]{
+    display: none;
+}
+
+
+.my-name{
+    font-size: 2.4rem;
+    letter-spacing: 0.2rem;
+    color: #666;
+    font-weight: 500;
+}
+
+.hero-text-box{
+    height: 100%;
+}
+
+.hero-img-box{
+    display: none;
+}
+
+.whoiam{
+    margin-bottom: 10rem;
+    padding-left: 4.8rem;
+    margin-top: 25rem;
+}
+
+.heading-primary{
+    font-size: 5.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.hero-description{
+    font-size:  2.4rem;
+}
+
+.btn{
+    margin-bottom: 5rem;
+}
+
+.contact-btn:link,
+.contact-btn:visited{  
+    font-size: 1.8rem;
+    padding: 1.8rem 3.6rem;
+}
+
+.btn{
+    margin-bottom: 30rem;
+}
+
+.icon{
+    height: 3.5rem;
+    width: 3.5rem; 
+}
+
+.social-icons{
+    padding-right: 5rem;
+}
+
+.s-icon{
+    font-size: 3rem;
+}
+}
+
+@media(max-width: 46rem){
+
+.heading-primary{
+    font-size: 4.8rem;
+}    
+
+.down-icon{
+    padding-right: 4.8rem;
+}
+
+.btn{
+    margin-bottom: 30rem;
+}
+
+.contact-btn:link,
+.contact-btn:visited{  
+    font-size: 1.4rem;
+    padding: 1.4rem 3.4rem;
+}
+
+
+}
+
+@media(max-width: 41rem){
+    .heading-primary{
+        font-size: 4rem;
+    }
+}
+
+@media(max-width: 34rem){
+.heading-primary{
+    font-size: 3rem;}
+
+    .hero-description{
+        font-size: 2rem;
+    }
+}
+
+@media(max-width: 29rem){
+
+.heading-primary{
+     font-size: 2.8rem;
+     letter-spacing: 0.3rem;
+     margin-bottom: 1.5rem;
+    }
+    
+.hero-description{
+    font-size: 1.8rem;
+        }
+
+.contact-btn:link,
+.contact-btn:visited{  
+    font-size: 1.2rem;
+    padding: 1.2rem 2.4rem;
+}
+
+.btn{
+    margin-bottom: 35rem;
+}
+
+.social-icons{
+    padding-right: 3rem;
+}
+
+.my-name{
+    font-size: 1.8rem;
+ }
+
+ .s-icon{
+    font-size: 2.7rem;
+}
+
+}
+
+@media(max-width: 23.5rem){
+.heading-primary{
+        font-size: 2.4rem;
+        letter-spacing: 0.2rem;
+}
+
+.hero-description{
+        font-size: 1.4rem;
+        letter-spacing: 0.4rem;
+}
+
+.my-name{
+        font-size: 1.6rem;
+}
+
+.icon{
+    height: 3rem;
+    width: 3rem; 
+}
+
+.down-icon{
+    padding-right: 0;
+}
+
+}
+
+@media(max-width: 21rem){
+    .heading-primary{
+        font-size: 2.4rem;
+        letter-spacing: 0.2rem;
+        line-height: 4rem;
+}
+
+.hero-description{
+        font-size: 1.4rem;
+        letter-spacing: 0.4rem;
+        line-height: 3rem;}
+
+.contact-btn:link,
+.contact-btn:visited{  
+    font-size: 1rem;
+    padding: 1.2rem 2.4rem;
+}
+
+.btn{
+    margin-bottom: 30rem;
+}
+
+.my-name{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+}
