@@ -68,6 +68,8 @@ header{
     font-weight: 500;
 }
 
+ 
+
 .btn-mobile-nav{
     border: none;
     background: none;
@@ -111,25 +113,19 @@ h1{
     box-shadow: 0 2.4rem 4.8rem rgba(0,0,0, 0.075);
     border-radius: 5px;
     overflow: hidden;
-    transition: all 0.4s;
-    overflow: hidden;
     cursor: pointer;
 }
 
 .project img{
     display: block;
-    width: 100%;
+    width: 27.4rem;
+    height: 27.4rem;
     transition: all 0.4s;
 }
 
 .project img:hover{
     transform: scale(1.1); 
 }
-
-.project-img{
-    width: 100%;
-}
-
 
 .down-icon{  
     position: absolute;

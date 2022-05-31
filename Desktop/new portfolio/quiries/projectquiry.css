@@ -135,6 +135,11 @@
         height: 4rem;
         width: 4rem;
     }
+
+    .project img{
+        width: 100%;
+        height: auto;
+    }
 }
 
 @media(max-width: 50rem){
@@ -148,8 +153,8 @@
         height: 125rem; 
 }
 
-.down-icon{  
-    margin-left: 21.5%;
+    .down-icon{  
+        margin-left: 21.5%;
 }
 
 }
@@ -160,8 +165,8 @@
         
 }
 
-.down-icon{  
-    margin-left: 21%;
+    .down-icon{  
+        margin-left: 21%;
 }
 }
 
@@ -171,8 +176,8 @@
          
 }
 
-.down-icon{  
-    margin-left: 20.5%;
+    .down-icon{  
+        margin-left: 20.5%;
 }
 }
 
@@ -181,8 +186,8 @@
         grid-template-columns: 1fr;
 }
 
-.project-container{
-    height: 275rem;
+    .project-container{
+        height: 275rem;
 }
 
 .down-icon{  
@@ -236,6 +241,7 @@
     .project-container{
         height: 175rem;
     }
+
     h1{
         font-size: 4.4rem;  
     }
@@ -249,6 +255,7 @@
     .project-container{
         height: 145rem;
     }
+    
     h1{
         font-size: 3.6rem;  
     }

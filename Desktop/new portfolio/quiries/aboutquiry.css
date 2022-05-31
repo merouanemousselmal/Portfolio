@@ -194,11 +194,16 @@
     
     
     header{
-        height: 8rem;  
+        height: 10rem;  
     }
 
     .my-name{
-        font-size: 2.8rem; 
+        font-size: 3rem; 
+    }
+
+    .icon{  
+        height: 3rem;
+        width: 3rem;  
     }
 }
 
@@ -206,24 +211,80 @@
         html{
             font-size: 30%;
         }
+
+         
+        header{
+            height: 8rem;  
+      }
+
+        .my-name{
+            font-size: 2.8rem; 
+    }
+
+    .icon{  
+        height: 3rem;
+        width: 3rem;  
+    }
 }
 
 @media(max-width: 19rem){
         html{
             font-size: 28%;
         }
+
+         
+    header{
+        height: 10rem;  
+    }
+
+    .my-name{
+        font-size: 3rem; 
+    }
+
+    .icon{  
+        height: 3rem;
+        width: 3rem;  
+    }
 }
 
 @media(max-width: 16rem){
         html{
             font-size: 25%;
         }
+
+         
+    header{
+        height: 10rem;  
+    }
+
+    .my-name{
+        font-size: 3rem; 
+    }
+
+    .icon{  
+        height: 3rem;
+        width: 3rem;  
+    }
 }
 
 @media(max-width: 14rem){
         html{
             font-size: 23%;
         }
+
+         
+    header{
+        height:10rem;  
+    }
+
+    .my-name{
+        font-size: 3rem; 
+    }
+
+    .icon{  
+        height: 3rem;
+        width: 3rem;  
+    }
 }
 
 
